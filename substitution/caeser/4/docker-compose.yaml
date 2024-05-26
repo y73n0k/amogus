@@ -1,0 +1,6 @@
+name: caeser4
+services:
+  server:
+    build: .
+    ports:
+      - "7554:1337"

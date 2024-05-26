@@ -1,0 +1,6 @@
+name: caeser1
+services:
+  server:
+    build: .
+    ports:
+      - "7551:1337"

@@ -1,0 +1,6 @@
+name: table2
+services:
+  server:
+    build: .
+    ports:
+      - "7562:1337"

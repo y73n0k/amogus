@@ -1,0 +1,6 @@
+name: affine1
+services:
+  server:
+    build: .
+    ports:
+      - "7571:1337"

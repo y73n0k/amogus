@@ -1,0 +1,6 @@
+name: vigenere
+services:
+  server:
+    build: .
+    ports:
+      - "7570:1337"
