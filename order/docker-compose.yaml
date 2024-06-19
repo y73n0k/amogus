@@ -1,0 +1,6 @@
+name: order
+services:
+  server:
+    build: .
+    ports:
+      - "8118:1337"
